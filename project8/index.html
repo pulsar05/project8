@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 7</title>
+</head>
+<style>
+    .bg1{
+        text-align: center;
+    }
+    .bg2{
+        margin-left: 98%;
+        margin-top: -12px;
+    }
+    .bg3{
+        margin-left: 20px;
+        color: red;
+        display: flex;
+    }
+    .bg4{
+        text-align: center;
+        margin-top: -28px;
+    }
+    .bg5{
+        margin-left: 82%;
+        margin-top: -40px;
+    }
+    .bg6{
+        margin-left: 90%;
+        margin-top: -38px;
+    }
+    .bg7{
+        margin-left: 95%;
+        margin-top: -32px;
+    }
+    .og1{
+        display: flex;
+        gap: 30px;
+        margin-left: 15%;
+    }
+    .pg{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+    .one {
+        margin-left: 82%;
+        margin-top: -10%;
+    }
+    .two{
+        margin-left: 82%;
+        margin-top: -10%;
+    }
+    .three{
+        margin-left: 82%;
+        margin-top: -10%;
+
+    }
+    .four{
+        margin-left: 82%;
+        margin-top: -10%;
+    }
+    .pg5{
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .pg6{
+        margin-left: 24%;
+        margin-top: -95px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .pg7{
+        margin-left: 48%;
+        margin-top: -95px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+    }
+    .pg8{
+        margin-left: 73%;
+        margin-top: -95px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+    }
+    .ug{
+        display: flex;
+        padding: 20px;
+        gap: 25px;
+       
+    }
+    .A{
+        margin-left: 82%;
+        margin-top: -10%;
+    }
+    .B{
+        margin-left: 82%;
+        margin-top: -10%;
+
+    }
+    .C{
+        margin-left: 82%;
+        margin-top: -10%;
+    }
+    .D{
+        margin-left: 82%;
+        margin-top: -10%;
+    }
+    .ug5{
+        color: #B8B8B8;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+    .ug6{
+        margin-left: 25%;
+        margin-top: -30%;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .ug7{
+        margin-left: 51%;
+        margin-top: -30%;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .ug8{
+        margin-left: 77%;
+        margin-top: -30%;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .ag{
+        display: flex;
+        gap: 25px;
+        padding: 20px;
+    }
+    .E{
+        margin-left: 82%;
+        margin-top: -10%;
+    }
+    .F{
+        margin-left: 82%;
+        margin-top: -10%;
+
+    }
+    .G{
+        margin-left: 82%;
+        margin-top: -10%;
+    }
+    .H{
+        margin-left: 82%;
+        margin-top: -10%;
+    }
+    .ag5{
+        margin-left: -1114px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .ag6{
+        margin-left: -749px;
+        margin-top: -80px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .ag7{
+        margin-left: -384px;
+        margin-top: -80px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .ag8{
+        margin-left: -20px;
+        margin-top: -80px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .gg{
+        display: flex;
+        gap: 23px;
+        padding:20px ;
+    }
+    .gg5{
+        color: #B8B8B8;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+    .gg6{
+        margin-left:81px;
+        margin-top: -30%;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .gg7{
+        margin-left: 165px;
+        margin-top: -30%;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .gg8{
+        margin-left: 78%;
+        margin-top: -90px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .rg{
+        display: flex;
+        padding: 20px;
+        gap: 25px;
+    }
+    .rg6{
+        margin-top: -98px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .rg5{
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .rg7{
+        margin-top: -29%;
+        margin-left: 11px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .rg8{
+        margin-top: -29%;
+        margin-left: 11px;
+        color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .dg{
+        display: flex;
+        gap: 25px;
+        padding: 20px;
+    }
+    .dg6{
+        margin-top: -26%
+          
+    }
+   .dg7{
+    margin-top: -32%;
+    color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+}
+.dg8{
+    margin-top: -26%;
+    color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+}
+.dg5{
+    color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+}
+.dg6{
+    color: #B8B8B8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+}
+.yg{
+    text-align:center;
+    width: 100px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #1E1E1E;
+    color: white;
+    margin-left: 49%;
+    font-family: Poppins;
+
+}
+.yg2{
+    margin-left: 5%;
+    margin-top: 5px;
+}
+.yg1{
+    margin-left: 20px;
+    
+}
+.yg4{
+    margin-left: 1090px;
+    margin-top: -30px;
+    color: #3E3E3E;
+}
+.yg3{
+    color: #3E3E3E;
+}
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+</style>
+<body>
+    <div class="bg">
+        <div class="bg1">
+            <b>Hey,Where are you going?</b>
+            </div>
+            <div class="bg2">
+            <img src="image.txt" alt="img" width="17px" height="17px">
+            </div>
+            <div class="cg">
+                <hr>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    </div>
+    <div class="bg3">
+        <h2>Nginep</h2>
+        </div>
+
+        <div class="bg4">
+        <input type="text"placeholder="search">
+        <i class="fa-soild fa magnifying glass"></i>
+        </div>
+
+        <div class="bg5">
+        <h3>nginep site</h3>
+        </div>
+
+        <div class="bg6">
+        <img src="image1.txt" alt="img1" width="20px"height="20px">
+        </div>
+
+        <div class="bg7">
+            <img src="image2.txt" alt="img2" width="35px" height="35px">
+        </div>
+    </div>
+    <br><br>
+
+    <div class="og">
+        <div class="og1">
+            <img src="image3.txt" alt="img3" width="45px" height="34px">
+            <br><br><br>
+            <img src="image4.txt" alt="img4" width="50px" height="33px">
+            <br><br><br>
+            <img src="image5.txt" alt="img5" width="40px" height="34px">
+            <br><br><br>
+            <img src="image6.txt" alt="img6" width="47px" height="40px">
+            <br><br><br>
+            <img src="image7.txt" alt="img7"width="37px" height="36px">
+            <br><br><br>
+            <img src="image8.txt" alt="img8" width="50px" height="32px">
+            <br><br><br>
+            <img src="image9.txt" alt="img9" width="41px" height="38px">
+            <br><br><br>
+            <img src="image10.txt" alt="img10" width="49px" height="41px">
+            <br><br><br>
+            <img src="image11.txt" alt="img11" width="26px" height="37px">
+            <br><br><br>
+            <img src="image12.txt" alt="img12" width="37px" height="34px">
+            <br><br><br>
+            <img src="image13.txt" alt="img13" width="38px" height="35px">
+        </div>
+    </div>
+    <br><br><br>
+    <div class="pg">
+        <div class="pg1">
+            <img src="image14.txt" alt="img14" width="315px" height="320px">
+            <p>Nusa Ceningan, Indonesia</p>
+         <div class="one">  
+            <img src="star1.txt" alt="star" width="15px" height="14px">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>  
+        <br><br><br>
+        <div class="pg2">
+            <img src="image15.png" alt="img15" width="315px" height="320px">
+            <p>Lovina Seririt, Indonesia</p>
+            <div class="two">
+            <img src="star1.txt" alt="star1" width="15px" height="14px">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.89</h6>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="pg3">
+            <img src="image16.txt" alt="img16" width="315px" height="320px">
+            <p>Kutuh, Indonesia</p>
+            <div class="three">
+            <img src="star1.txt" alt="star1" width="15px" height="14px">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.89</h6>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="pg4">
+            <img src="image17.txt" alt="img17" width="315px" height="320px">
+            <p>Karangasem, Indonesia</p>
+            <div class="four">
+            <img src="star1.txt" alt="star1" width="15px" height="14px">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.89</h6>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+    <div class="pg5">
+       
+        <p style="margin-top: -20px; margin-left: 16px;">On the beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left: 16px;">Apr 7 - 12</p>
+        <b style="color: black; margin-left: 15px;">Rp2,250,000 night</b>
+    </div>
+    <br>
+
+    <div class="pg6">
+        <p style="margin-top: -20px; margin-left: 16px;">On the beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left: 16px;">Apr 7 - 12</p>
+        <b style="color: black; margin-left: 15px;">Rp2,932,910 night</b>
+    </div>
+    <br>
+    <div class="pg7">
+        <p style="margin-top: -20px; margin-left: 16px;">On the beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left: 16px;">Apr 7 - 12</p>
+        <b style="color: black; margin-left: 15px;">Rp33,687,226 night</b>
+    </div>
+    <br>
+    <div class="pg8">
+        <p style="margin-top: -20px; margin-left: 16px;">On the beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left: 16px;">Apr 7 - 12</p>
+        <b style="color: black; margin-left: 15px;">Rp4,398,219 night</b>
+        </div>
+</div>
+<br><br><br>
+<div class="ug">
+    <div class="ug1">
+        <img src="image19.txt" alt="img19" width="315px" height="320px">
+        <p>Seminyak, Indonesia</p>
+        <div class="A">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+        
+    </div>
+        <br><br><br>
+        <div class="ug2">
+        <img src="image20.txt" alt="img20" width="315px" height="320px">
+        <p>Badung, Indonesia</p>
+        <div class="B">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+        <br><br><br>
+        <div class="ug3">
+        <img src="image21.txt" alt="img21" width="315px" height="320px">
+        <p>Canggu, Indonesia</p>
+        <div class="C">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+        <br><br><br>
+        <div class="ug4">
+        <img src="image22.txt" alt="img22" width="315px" height="320px">
+        <p>Canggu, Indonesia</p>
+        <div class="D">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+        
+        <div class="ug5">
+            <p style="margin-left: -347%;">2 min to Seminyak Beach</p>
+            <br>
+            <p style="margin-left: -347%; margin-top: -18px;">Oct 4 - 9</p>
+            <b style="margin-left:-347% ; color: black;">Rp2,563,061 night</b>
+        </div>
+        <div class="ug6">
+            <p style="margin-left: -345%;">1 min to Seminyak Beach</p>
+            <br>
+            <p style="margin-left: -345%; margin-top: -18px;">May 2 - 7</p>
+            <b style="margin-left:-345% ; color: black;">Rp16,161,062 night</b>
+        </div>
+        <div class="ug7">
+            <p style="margin-left: -345%;">11 kilometers away</p>
+            <br>
+            <p style="margin-left: -345%; margin-top: -18px;">May 3- 8</p>
+            <b style="margin-left:-345% ; color: black;">Rp24,644,818 night</b>
+
+        </div>
+        <div class="ug8">
+            <p style="margin-left: -345%;">4 min to Seminyak Beach</p>
+            <br>
+            <p style="margin-left: -345%; margin-top: -18px;">Apr 8 - 15</p>
+            <b style="margin-left:-345% ; color: black;">Rp7,329,305 night</b>
+
+        </div>
+    </div>
+</div>
+</div>
+<br><br><br>
+<div class="ag">
+    <div class="ag1">
+        <img src="image23.txt" alt="img23" width="315px" height="320px">
+        <p>Nusa Ceningan, Indonesia</p>
+        <div class="E">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br><br>
+    <div class="ag2">
+        <img src="image24.txt" alt="img24" width="315px" height="320px">
+        <p>Lovina Seririt, Indonesia</p>
+        <div class="F">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br><br>
+    <div class="ag3">
+        <img src="image25.txt" alt="img25" width="315px" height="320px">
+        <p>Kutuh, Indonesia</p>
+        <div class="G">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br><br>
+    <div class="ag4">
+        <img src="image26.txt" alt="img26"width="315px" height="320px">
+        <p>Karangasem, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+        <br>
+        <div class="ag5">
+            <p style="margin-top: -20px; margin-left: 16px;">On the beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left: 16px;">Apr 7 - 12</p>
+        <b style="color: black; margin-left: 15px;">Rp2,250,000 night</b>
+
+        </div>
+        <div class="ag6">
+            <p style="margin-top: -20px; margin-left: 16px;">53 kilometers away</p>
+        <br>
+        <p style="margin-top: -20px; margin-left: 16px;">May 6 - 11</p>
+        <b style="color: black; margin-left: 15px;">Rp2,932,910 night</b>
+
+        </div>
+        <div class="ag7">
+            <p style="margin-top: -20px; margin-left: 16px;">On pandawa beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left: 16px;">Jun 20 - 25</p>
+        <b style="color: black; margin-left: 15px;">Rp33,687,226 night</b>
+
+        </div>
+        <div class="ag8">
+            <p style="margin-top: -20px; margin-left: 16px;">Near Pantai Ujung</p>
+        <br>
+        <p style="margin-top: -20px; margin-left: 16px;">Apr 12 - 17</p>
+        <b style="color: black; margin-left: 15px;">Rp4,398,219 night</b>
+
+        </div>
+        </div>
+        
+    </div>
+</div>
+<br><br><br>
+<div class="gg">
+    <div class="gg1">
+        <img src="image27.txt" alt="img27"width="315px" height="320px">
+        <p>Canggu, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br><br>
+    <div class="gg2">
+        <img src="image28.txt" alt="img28"width="315px" height="320px">
+        <p>Karangasem, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br><br>
+    <div class="gg3">
+        <img src="image29.txt" alt="img29" width="315px" height="320px">
+        <p>Seminyak, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br><br>
+    <div class="gg4">
+        <img src="image30.txt" alt="img30" width="315px" height="320px">
+        <p>Canggu, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+        <div class="gg5">
+            <p style="margin-left:-345%;">4 min to Seminyak Beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-345%;">Apr 8 - 15</p>
+        <b style="color: black; margin-left:-345%;">Rp7,329,305 night</b>
+        </div>
+        <div class="gg6">
+            <p style="margin-left:-345%;">Near Pantai Ujung</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-345%;">Apr 7 - 12</p>
+        <b style="color: black; margin-left:-345%;">Rp4,398,219 night</b>
+        </div>
+        <div class="gg7">
+            <p style="margin-left:-345%;">2 min to Seminyak Beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-345%;">Apr 7 - 12</p>
+        <b style="color: black; margin-left:-345%;">Rp2,250,000 night</b>
+        </div>
+        <div class="gg8">
+            <p style="margin-left:-345%;">11 kilometers away</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-345%;">Apr 7 - 12</p>
+        <b style="color: black; margin-left:-345%;">Rp2,250,000 night</b>
+        </div>
+        
+    </div>
+</div>
+<br><br>
+<div class="rg">
+    <div class="rg1">
+        <img src="image31.txt" alt="img31" width="315px" height="320px">
+        <p>Kutuh, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br><br>
+    <div class="rg2">
+        <img src="image32.txt" alt="img32"width="315px" height="320px">
+        <p>Lovina Seririt, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br><br>
+    <div class="rg3">
+        <img src="image33.txt" alt="img33" width="315px" height="320px">
+        <p>Nusa Ceningan, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br><br>
+    <div class="rg4">
+        <img src="image34.txt" alt="img34" width="315px" height="320px">
+        <p>Badung, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+        <div class="rg5">
+            <p style="margin-left:-348%;">On pandawa beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-348%;">Jun 20 - 25</p>
+        <b style="color: black; margin-left:-348%;">Rp7,329,305 night</b>
+        </div>
+
+        <div class="rg6">
+            <p style="margin-left:-233%;">53 kilometers away</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-233%;">May 6 - 11</p>
+        <b style="color: black; margin-left:-233%;">Rp7,329,305 night</b>
+
+        </div>
+        <div class="rg7">
+            <p style="margin-left:-119%;">On the beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-119%;">Apr 7 - 12</p>
+        <b style="color: black; margin-left:-119%;">Rp7,329,305 night</b>
+
+        </div>
+        <div class="rg8" >
+            <p style="margin-left:-5%;">1 min to Seminyak Beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-5%;">Apr 8 - 15</p>
+        <b style="color: black; margin-left:-4%;">Rp7,329,305 night</b>
+       
+
+        </div>
+    </div>
+</div>
+<br><br><br>
+<div class="dg">
+    <div class="dg1">
+        <img src="image35.txt" alt="img35" width="315px" height="320px">
+        <p>Canggu, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br>
+    <div class="dg2">
+        <img src="image36.txt" alt="img36" width="315px" height="320px">
+        <p>Nusa Ceningan, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br>
+    <div class="dg3">
+        <img src="image37.txt" alt="img37" width="315px" height="320px">
+        <p>Canggu, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+    </div>
+    <br>
+    <div class="dg4">
+        <img src="image38.txt" alt="img38" width="315px" height="320px">
+        <p>Seminyak, Indonesia</p>
+        <div class="H">
+            <img src="star1.txt" alt="star" width="15px" height="14px ">
+            <h6 style="margin-top: -15px; margin-left: 30px;">4.83</h6>
+        </div>
+        <div class="dg5">
+            <p style="margin-left:-348%;">11 kilometers away</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-348%;">May 3- 8</p>
+        <b style="color: black; margin-left:-348%;">Rp24,644,818 night</b>
+        </div>
+        <div class="dg6">
+            <p style="margin-left:-230%;">On the beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-230%;">Apr 7 - 12</p>
+        <b style="color: black; margin-left:-230%;">Rp2,250,000 night</b>
+        </div>
+        <div class="dg7">
+            <p style="margin-left:-112%;">4 min to Seminyak Beach</p>
+        <br>
+        <p style="margin-top: -20px; margin-left:-112%;">Apr 8 - 15</p>
+        <b style="color: black; margin-left:-112%;">Rp7,329,305 night</b>
+        </div>
+        <div class="dg8">
+              <p style="margin-left:1%;">2 min to Seminyak Beach</p>
+            <br>
+            <p style="margin-top: -20px; margin-left:1%;">Oct 4 - 9</p>
+            <b style="color: black; margin-left:1%;">Rp2,563,061 night</b>
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="yg">
+    <b>Show Map</b>
+</div>
+<br><br>
+<div class="yg1">
+    <hr>
+</div>
+<div class="yg2">
+    <img src="image39.txt" alt="img39" width="10px" height="10px">
+    </div>
+    <div class="yg3">
+    <p style="margin-left: 90px; margin-top:-1%;">2023 nginep, Inc. Terms. sitemap. privacy. Your privacy choices. Destinations</p>
+    
+</div>
+<div class="yg4">
+    <b>English (US)  Rp IDR Support & resources</b>
+</div>
+
+</body>
+</html>
